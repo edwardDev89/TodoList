@@ -1,0 +1,12 @@
+<!-- display from child selector in parent component -->
+<!-- todoinput act as input from child component -->
+<app-todo-add
+    (addTodoItem) = "addTodoItem($event)"
+>
+</app-todo-add>
+<app-todo-item 
+    *ngFor="let todoItem of todoList" 
+    [todoItem] = "todoItem"
+    (deleteTodoItem) = "deleteTodoItem($event)"
+>
+</app-todo-item>

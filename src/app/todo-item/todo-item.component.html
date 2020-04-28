@@ -1,0 +1,11 @@
+<div class="card shadow mb-2">
+    <div class ="card-body" [ngClass]="setClass()">
+        <span class="cardContainer">
+            <input type="checkbox" (change)="onTick(todoItem)"/>
+            {{todoItem.title}}      
+        </span>
+        <span class="del btn btn-danger btn-sm delBtn" (click)="onDelete(todoItem)">Delete</span>
+    </div>
+</div>
+
+

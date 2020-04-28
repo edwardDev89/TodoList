@@ -1,0 +1,15 @@
+.completed
+{
+    text-decoration: line-through;
+}
+
+.cardContainer{
+    display:inline;
+    vertical-align: center;
+}
+
+.delBtn{
+    position:absolute;
+    right: 20px;
+}
+

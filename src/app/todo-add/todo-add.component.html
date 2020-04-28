@@ -1,0 +1,10 @@
+<form class="form" (ngSubmit)="onSubmit()">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Todo title..." name="title" [(ngModel)]="title" autocomplete="off">
+        <div class="input-group-append">
+          <button class="btn btn-success" type="submit" value="Submit">Add</button>
+        </div>
+      </div>
+</form>
+
+
