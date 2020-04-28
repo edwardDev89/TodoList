@@ -15,7 +15,7 @@ const httpOptions = {
 })
 
 export class TodoService {
-  todoURL:string = 'http://my-json-server.typicode.com/edwardDev89/FakeJsonDB/posts/';
+  todoURL:string = 'https://my-json-server.typicode.com/edwardDev89/FakeJsonDB/posts/';
 
   //todoURL:string = 'https://jsonplaceholder.typicode.com/todos';
   todosLimit = '?_limit=5';
